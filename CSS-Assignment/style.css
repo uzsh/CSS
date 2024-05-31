@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent {
+    width: 80%;
+        background-color: #C4E4FF;
+        margin: auto;
+        height: 250vh;
+        position: relative;
+}
+#outerDiv {
+    border-radius: 10px;
+    border: 4px solid chocolate;
+    box-shadow: 5px 5px  plum;
+    width: 25%;
+    text-align: center;
+    height: 25vh;
+    margin: auto;
+  }
+  h2{
+    text-align: center;
+    text-shadow: 0 1px 5px #2f0761 ;
+    color: #010b1b;
+}
+#parent1 {
+    width: 98%;
+    border:5px solid rgb(105, 105, 239);
+    height: 120vh;
+    margin:10px;
+}
+.boxes{
+    border-radius: 10px;
+    width: 20%;
+    height: 35vh;
+    text-align: center;
+    background-color: antiquewhite;
+    border: 3px solid cadetblue;
+    box-shadow: 5px 5px rgb(233, 144, 42);
+}
+#box1{ 
+    position: absolute;
+    margin-left: 50px;
+    font: 15px bold;margin: 35px;
+    padding-top: 40px;
+}
+
+ #box2{
+    position: absolute;
+    margin-right: 50px;
+    font: 15px bold;
+    right:20px;margin: 35px;
+}
+
+
+img {
+    width: 150px;
+    padding-top: 5px;
+    height: 130px;
+
+}
+#box3{
+    position: absolute;
+    margin-right: 70px;
+    font: 15px bold;
+    bottom:550px;
+    left: 45px;
+}
+#box4{
+    position: absolute;
+    margin-right: 50px;
+    font: 15px bold;
+    bottom: 550px;
+    right: 20px;
+}
+#Box {
+    width: 50%;
+    height: 90vh;
+    background-color: #a6e0eb;
+    margin: auto;
+    border:5px solid #254336 ;
+}
+h1{
+    text-align: center;
+    text-shadow: 0 1px 5px #2f0761 ;
+    color: #010b1b;
+}
+
+h3 {
+    padding-top: 0;
+    text-align: center;
+    margin:0%;
+    color: #01204E;
+    font-style: italic;
+    text-shadow: 1px 0.5px  0.5px #01204E ;
+}
+
+.box {
+    background-color: wheat ;
+    font-size: medium;
+    border: 1px solid rgb(84, 84, 224) ;
+    width: 45%;
+    height: 30vh;
+    text-wrap: wrap;
+    margin: 12px;
+
+}
+
+ p {
+    font: italic small "Brygada 1918", serif;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 0px 0.5px  0.5px #01204E
+    
+ }
+ #item1 {
+    float: left;
+ } 
+ #item2 {
+    float: right;
+}  
+
+#item3 {
+    width: 96%;
+    clear: both;
+    height: 200px;
+    padding-top: 10px;
+} 
+#fixed {
+    border: 3px solid rgb(240, 87, 36);
+    width: 30%;
+    height: 70px;
+    background-color: rgb(178, 237, 51);
+    border-radius: 30px;
+    position: fixed;
+    margin-left: 35%;
+    bottom: 20px;
+    left: 20px;
+    
+}
+.a {
+    font: italic 20px Georgia; 
+    text-align: center;
+
+}
+
