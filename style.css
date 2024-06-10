@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+} 
+body {
+    background-image: url("./sahara-desert.jpg");
+    background-size: cover;
+
+}
+/* navigation bar */
+.navbar {
+    display: flex;  
+}
+
+.nav-link ul {
+    margin-left: 700px;
+}
+.nav-link, ul, li, a {
+    text-decoration: none;
+    color: white;
+    font:  13px Verdana;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-weight: 200px;
+   
+}
+.nav-link, ul, li, a:hover{
+    color:  rgb(123, 145, 81);
+}
+.logo img {
+     width: 50px;
+     height: 40px;
+     margin-left: 70px;
+     margin-top: 30px;
+    
+  }
+ul i {
+ margin-left: 80px;
+ width: 90px;
+ height: 90px;
+ margin-top: 20px;
+ color: white;
+} 
+/* main code */
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left:80px;
+} 
+
+.partOne h1 {
+    text-transform: uppercase;
+    color:  white;
+    margin-bottom: 30px;
+    font-size: 75px;
+    margin-top: 110px;
+}
+.partOne h1 span {
+    color: white;
+}
+.partOne p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    line-height: 25px;
+    font-size: 12px;
+    margin: auto;
+    
+}
+.partOne button {
+    width: 140px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 22px;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px 17px;
+    border: none;
+    
+}
+.partOne button:hover {
+    background-color: rgb(197, 239, 113);
+    color: white;
+}
+
+.partTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    color: white;
+    grid-gap: 40px;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 200px;
+}
+.boxes, h6 {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 5px;
+    line-height: 25px;
+    border-radius: 10px;
+    font-weight: 600px;
+
+ 
+}
+
+.boxes:hover{
+    transform: translateY(-10px);
+}
+#box1 {
+    background-image: url("./pic-1.png");
+    background-size: cover ;
+    
+}
+#box2 {
+    background-image: url("./pic-2.png");
+    background-size: cover ;
+    
+}
+#box3 {
+    background-image: url("./pic-3.png");
+    background-size: cover ;
+    
+}
+#box4 {
+    background-image: url("./pic-4.png");
+    background-size: cover ;
+    
+}
+
+p{
+    font: 8px Verdana ;
+    margin-left: 10px;
+    line-height: 20px;
+    color: white;
+    margin-top: 5px;
+} 
+
+@media  screen and (min-width: 375px) and (max-width: 932px){
+
+ .nav-link ul {
+        margin-left: 40px;
+    }
+    .main{
+        display: block;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .main, .partOne {
+        margin-right: 50pxpx;
+
+        width: 300px;
+    } 
+    .partTwo {
+         display: grid;
+        
+        grid-template-columns: repeat(1,200px);
+        grid-template-rows: repeat(4,200px);
+        justify-content: center;
+        margin-top: 30px;
+        margin-right: 180px;
+
+    }
+    .boxes {
+        margin-top:10px
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1024px){
+
+    .nav-link ul {
+        margin-left: 300px;
+    }
+    .main{
+        display: block;
+        margin-left: 40px;
+        color: white;
+        margin-top: 20px;
+    }
+    .main, .partOne {
+        margin-right: 50px;
+
+        width: 400px;
+    } 
+    .partTwo {
+         display: grid;
+        
+        grid-template-columns: repeat(2,300px);
+        grid-template-rows: repeat(2,300px);
+        justify-content: center;
+        margin-top: 30px;
+        margin-right: 1px;
+        margin-left: 300px;
+
+    }
+    .boxes {
+        margin-top:10px
+    }
+}
+    
+
+
+
